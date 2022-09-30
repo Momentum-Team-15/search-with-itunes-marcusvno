@@ -11,6 +11,11 @@
 
  }
 
+#artistName{
+  font-weight:300;
+  font-size:22px;
+}
+
  #artistSearch{
   width: 200px;
  }
@@ -20,8 +25,8 @@
  }
 
  body{
-  max-width:600px;
-  min-width:200px;
+  max-width:90%;
+  min-width:40%;
  }
  
 .materialize-red {
@@ -3498,8 +3503,8 @@ table span.badge {
 
 .row:after {
   content: "";
-  display: table;
-  clear: both;
+  /*display: table;
+  clear: both; */
 }
 
 .row .col {
@@ -4777,7 +4782,7 @@ small {
 
 .card .card-title {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .card .card-title.activator {
@@ -4820,7 +4825,9 @@ small {
 }
 
 .card.large {
-  height: 500px;
+/*height: 500px;*/
+  height:650px;
+
 }
 
 .card.horizontal {
@@ -5292,8 +5299,8 @@ small {
   display: inline-block;
   color: #fff;
   position: relative;
-  overflow: hidden;
-  z-index: 1;
+/*   overflow: hidden;
+ */  z-index: 1;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -5321,7 +5328,8 @@ small {
 }
 
 .btn-floating.btn-large.halfway-fab {
-  bottom: -28px;
+
+  bottom: 20px;
 }
 
 .btn-floating.btn-large i {
